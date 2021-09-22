@@ -9,6 +9,6 @@ spec:
   - name: hook2-container
     image: busybox
     imagePullPolicy: IfNotPresent
-    command: ['sh', '-c', 'echo post-install hook Pod is running - post-install&& sleep 5']
+    command: ['sh', '-c', 'echo post-install hook Pod is running - post-install&& sleep 3']
   restartPolicy: Never
   terminationGracePeriodSeconds: 0
