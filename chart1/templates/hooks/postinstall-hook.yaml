@@ -11,5 +11,4 @@
      imagePullPolicy: IfNotPresent
      command: ['sh', '-c', 'echo post-install hook Pod is running - post-install&& sleep 5']
    restartPolicy: Never
-   terminationGracePeriodSeconds: 0  
-
+   terminationGracePeriodSeconds: 0
